@@ -22,7 +22,7 @@ def get_vulnerabilities(repo_name: str, owner: str) -> List[Vulnerability]:
     """Get a list of vulnerabilities detected in this repository's dependencies.
     """
     client = GithubClient()
-    vulnerabilities = client.get_repo_vulnerabilities(repo_name, owner)
+    vulnerabilities = client.get_repo_vuln_alerts(repo_name, owner)
 
     for v in vulnerabilities:
         v["project"] = repo_name
