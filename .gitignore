@@ -1,0 +1,12 @@
+# distribution-related files
+build
+dist
+*.egg-info
+
+# Virtual environment folder
+venv
+
+# Generated python files
+__pycache__
+.pytest_cache
+.coverage
