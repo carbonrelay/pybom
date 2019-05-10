@@ -2,6 +2,7 @@
 Generate a bill of materials and vulnerability information for your python projects.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![PyPI version](https://badge.fury.io/py/pybom.svg)](https://badge.fury.io/py/pybom)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
 ## About
